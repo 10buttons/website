@@ -1,3 +1,45 @@
-<svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2.67468 20.75L13.5 2L24.3253 20.75H2.67468Z" stroke="#2F80ED" stroke-width="2"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="35"
+   height="35"
+   viewBox="0 0 35 35"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="shape-3.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.7428571"
+     inkscape:cx="17.5"
+     inkscape:cy="17.351695"
+     inkscape:window-width="3840"
+     inkscape:window-height="2083"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <circle
+     r="17.5"
+     transform="matrix(-1 0 0 1 17.5 17.5)"
+     fill="#F2C94C"
+     id="circle2" />
+  <path
+     style="fill:#ff00ff;stroke-width:2.80262"
+     d="M 15.077422,34.772976 C 7.5728465,33.591622 1.7891435,28.038622 0.36957919,20.651806 0.06194171,19.050989 0.06159385,15.950805 0.36887228,14.35192 1.7125249,7.360392 7.0314189,1.9214469 13.981418,0.4321302 14.57077,0.30583795 15.787076,0.16483443 16.684322,0.11878908 25.310432,-0.32389047 32.997385,5.7719242 34.627906,14.348194 c 0.303705,1.597437 0.303705,4.706175 0,6.303612 -1.307985,6.879781 -6.411495,12.193564 -13.280291,13.827458 -1.577585,0.375264 -4.794797,0.525967 -6.270193,0.293712 z"
+     id="path313" />
 </svg>
