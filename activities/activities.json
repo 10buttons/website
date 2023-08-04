@@ -249,20 +249,30 @@
     },
     {
       "description": "Hear the names of the planets in our solar system and also the Sun and Pluto.",
-      "name": "Planet Names",
+      "name": "Solar System",
       "variant": [
         {
-          "command": "planets",
+          "command": "solar_system",
           "shortcut": 51
         }
       ]
     },
     {
       "description": "Hear the names and facts of the planets in our solar system and also the Sun and Pluto.",
-      "name": "Planet Facts",
+      "name": "Solar System Facts",
       "variant": [
         {
-          "command": "planet_facts",
+          "command": "solar_system_facts",
+          "shortcut": 52
+        }
+      ]
+    },
+    {
+      "description": "Test your knowledge about the planets in our solar system as well as the sun and pluto.",
+      "name": "Solar System Quiz",
+      "variant": [
+        {
+          "command": "solar_system_quiz",
           "shortcut": 52
         }
       ]
