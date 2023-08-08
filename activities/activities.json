@@ -273,7 +273,7 @@
       "variant": [
         {
           "command": "solar_system_quiz",
-          "shortcut": 52
+          "shortcut": 53
         }
       ]
     },
@@ -298,10 +298,11 @@
       ]
     },
     {
-      "description": "The award-winning Story Pirates Podcast takes stories written by kids and turns them into sketch comedy and songs. Made up of talented comedians, songwriters, and frequent celebrity guests, the Story Pirates inspire kids to create, bringing laughter to kids and grownups of all ages with hilarious sketches, catchy original songs from all genres, and interviews with the creative geniuses behind the stories… kids!\n<hr>\n<a href='http://www.storypirates.com/podcast'>Website</a>\n<hr>\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
+      "description": "The award-winning Story Pirates Podcast takes stories written by kids and turns them into sketch comedy and songs. Made up of talented comedians, songwriters, and frequent celebrity guests, the Story Pirates inspire kids to create, bringing laughter to kids and grownups of all ages with hilarious sketches, catchy original songs from all genres, and interviews with the creative geniuses behind the stories… kids!\n\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
       "icon": "https://megaphone.imgix.net/podcasts/e99fad86-c3ef-11e7-a558-0f40e9230d80/image/StoryPirates_ShowArt_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "name": "Story Pirates",
       "type": "podcast",
+      "website": "http://www.storypirates.com/podcast",
       "variant": [
         {
           "command": "play_podcast https://feeds.megaphone.fm/storypirates"
@@ -309,10 +310,11 @@
       ]
     },
     {
-      "description": "But Why is a show led by kids. They ask the questions and we find the answers. It’s a big interesting world out there. On But Why, we tackle topics large and small, about nature, words, even the end of the world. Know a kid with a question? Record it with a smartphone. Be sure to include your kid's first name, age, and town and send the recording to questions@butwhykids.org!\n<hr>\n<a href='http://butwhykids.org/'>Website</a>\n<hr>\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
+      "description": "But Why is a show led by kids. They ask the questions and we find the answers. It’s a big interesting world out there. On But Why, we tackle topics large and small, about nature, words, even the end of the world. Know a kid with a question? Record it with a smartphone. Be sure to include your kid's first name, age, and town and send the recording to questions@butwhykids.org!\n\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
       "icon": "https://static.feedpress.com/logo/vpr-but-why-62b4d4edadb66.png",
       "name": "But Why: A Podcast for Curious Kids",
       "type": "podcast",
+      "website": "http://butwhykids.org/",
       "variant": [
         {
           "command": "play_podcast https://podcasts.vpr.net/but-why"
@@ -320,10 +322,11 @@
       ]
     },
     {
-      "description": "Created and produced by parents of young children, WBUR's Circle Round adapts carefully-selected folktales from around the world into sound- and music-rich radio plays for kids ages 4 to 10. Each 10- to 20-minute episode explores important issues like kindness, persistence and generosity. And each episode ends with an activity that inspires a deeper conversation between children and grown-ups.\n<hr>\n<a href='https://www.wbur.org/podcasts/circleround'>Website</a>\n<hr>\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
+      "description": "Created and produced by parents of young children, WBUR's Circle Round adapts carefully-selected folktales from around the world into sound- and music-rich radio plays for kids ages 3-103. Each 10- to 20-minute episode explores important issues like kindness, persistence and generosity. And each episode ends with an activity that inspires a deeper conversation between children and grown-ups.\n\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
       "icon": "https://wordpress.wbur.org/wp-content/uploads/2017/06/WBUR_Album_Art_3000px_CircleRound.jpg",
       "name": "Circle Round",
       "type": "podcast",
+      "website": "https://www.wbur.org/podcasts/circleround",
       "variant": [
         {
           "command": "play_podcast https://rss.wbur.org/circleround/podcast"
@@ -331,21 +334,11 @@
       ]
     },
     {
-      "description": "<p>From the award-winning creators behind kids podcast Wow in the World, WeWow is a variety show featuring all of your favorite characters from across Tinkercast’s podcasts. From WeWow on the Weekend hosted by your favorite nosy neighbor Dennis to week-long WeWow’s with daily STEAM activities, every episode of WeWow encourages curious kids to engage with all the WOW in the world.</p>\n<hr>\n<a href='https://wondery.com/shows/wewow/?utm_source=rss'>Website</a>\n<hr>\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
-      "icon": "https://content.production.cdn.art19.com/images/e0/ba/41/4d/e0ba414d-7805-4435-bcdb-87ef5ccab9a1/691a811caac396f37cd22c10e2678fb525001a5dba2e8c15393d2ff76d3ec64b3b8fc62f8deba6c23f898a43ac812cea350a3c4798f4ab43bb6882b014d36fb4.jpeg",
-      "name": "WeWow",
-      "type": "podcast",
-      "variant": [
-        {
-          "command": "play_podcast https://rss.art19.com/camp-wewow"
-        }
-      ]
-    },
-    {
-      "description": "A History Podcast for Kids! Parents love us, Teachers love us, and most importantly, kids do too!\nHistory can be amazing, inspiring and relevant to anyone.  We love to share the stories of Spies, funny foods, George Washington's foibles, early advancements in cartooning and ballooning and much more! A professional music score and important songs accompany nearly every themed episode.  Proud Kids Listen Member @pastandcurious\n<hr>\n<a href='http://thepastandthecurious.com/'>Website</a>\n<hr>\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
+      "description": "A History Podcast for Kids! Parents love us, Teachers love us, and most importantly, kids do too!\nHistory can be amazing, inspiring and relevant to anyone.  We love to share the stories of Spies, funny foods, George Washington's foibles, early advancements in cartooning and ballooning and much more! A professional music score and important songs accompany nearly every themed episode.  Proud Kids Listen Member @pastandcurious\n\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
       "icon": "https://megaphone.imgix.net/podcasts/d24d44da-0684-11ee-b249-13e17f60109e/image/avatars-000270934730-efgg91-original.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "name": "The Past and The Curious: A History Podcast for Kids and Families",
       "type": "podcast",
+      "website": "http://thepastandthecurious.com/",
       "variant": [
         {
           "command": "play_podcast https://feeds.megaphone.fm/ARML5717012507"
@@ -353,10 +346,11 @@
       ]
     },
     {
-      "description": "Unspookable is a family friendly look at the histories and mysteries behind your favorite scary stories, myths and urban legends. Each week host Elise Parisian digs into the history, brain science, and power dynamics behind such topics as Bloody Mary, Charlie Charlie, and Ouija Boards to find the stories behind the scares. (Recommended for ages 8+)\nUnspookable has been called one of the \"Best podcasts for kids of all ages\" by Time Out New York, one of the “7 Podcasts Big Kids Will Love” by The New York Times, one of the \"5 Spooky Podcasts to Check Out Right Now\" by Vulture, one of the \"10 Best Podcasts for Children\" by the Irish Examiner, and is an official Common Sense Media Selection. The show has appeared multiple times across Canada on CBC Radio's Podcast Playlist, on NPR station WHYY's Kid's Listening Hour, has been featured by Apple Podcasts, Romper, The AV Club, Fast Company, The Week Jr, Podcast Magazine, and more.\n<hr>\n<a href='https://cms.megaphone.fm/channel/ARML9653488668'>Website</a>\n<hr>\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
+      "description": "Unspookable is a family friendly look at the histories and mysteries behind your favorite scary stories, myths and urban legends. Each week host Elise Parisian digs into the history, brain science, and power dynamics behind such topics as Bloody Mary, Charlie Charlie, and Ouija Boards to find the stories behind the scares. (Recommended for ages 8+)\nUnspookable has been called one of the \"Best podcasts for kids of all ages\" by Time Out New York, one of the “7 Podcasts Big Kids Will Love” by The New York Times, one of the \"5 Spooky Podcasts to Check Out Right Now\" by Vulture, one of the \"10 Best Podcasts for Children\" by the Irish Examiner, and is an official Common Sense Media Selection. The show has appeared multiple times across Canada on CBC Radio's Podcast Playlist, on NPR station WHYY's Kid's Listening Hour, has been featured by Apple Podcasts, Romper, The AV Club, Fast Company, The Week Jr, Podcast Magazine, and more.\n\nThis podcast is independently produced and the content is not controlled by 10 Buttons. It may contain ads. Please verify the content is appropriate for you and your listeners.\n",
       "icon": "https://megaphone.imgix.net/podcasts/ebbf41d4-0684-11ee-a3f0-23cde64557da/image/1539699612artwork.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "name": "Unspookable",
       "type": "podcast",
+      "website": "https://cms.megaphone.fm/channel/ARML9653488668",
       "variant": [
         {
           "command": "play_podcast https://feeds.megaphone.fm/ARML9653488668"
