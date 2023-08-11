@@ -1,27 +1,6 @@
 {
   "activity": [
     {
-      "description": "Restart the device",
-      "hidden": true,
-      "name": "Restart",
-      "variant": [
-        {
-          "command": "restart",
-          "shortcut": 99
-        }
-      ]
-    },
-    {
-      "description": "See ten colors, pick one to see it and hear its name.",
-      "name": "Pick A Color",
-      "variant": [
-        {
-          "command": "pick_a_color 0",
-          "shortcut": 11
-        }
-      ]
-    },
-    {
       "description": "Two players compete to see who can press their button the most times in a short period of time. Push your color to the other player to win. Red vs Blue.",
       "icon": "rapid_versus_icon.png",
       "name": "Rapid Versus",
@@ -52,6 +31,36 @@
         {
           "command": "color_mixer",
           "shortcut": 14
+        }
+      ]
+    },
+    {
+      "description": "See ten colors, pick one to see it and hear its name.",
+      "name": "Pick A Color (English)",
+      "variant": [
+        {
+          "command": "pick_a_color 0 en-US",
+          "shortcut": 11
+        }
+      ]
+    },
+    {
+      "description": "See ten colors, pick one to see it and hear its name.",
+      "name": "Pick A Color (Spanish)",
+      "variant": [
+        {
+          "command": "pick_a_color 0 es-ES",
+          "shortcut": 61
+        }
+      ]
+    },
+    {
+      "description": "See ten colors, pick one to see it and hear its name.",
+      "name": "Pick A Color (Chinese)",
+      "variant": [
+        {
+          "command": "pick_a_color 0 zh-CN",
+          "shortcut": 62
         }
       ]
     },
@@ -294,6 +303,17 @@
       "variant": [
         {
           "command": "sound_debug"
+        }
+      ]
+    },
+    {
+      "description": "Restart the device",
+      "hidden": true,
+      "name": "Restart",
+      "variant": [
+        {
+          "command": "restart",
+          "shortcut": 99
         }
       ]
     },
