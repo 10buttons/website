@@ -65,8 +65,10 @@
       ]
     },
     {
-      "description": "Find the matching pairs of colors. Press each button to find out what color it is. Also called concentration.",
+      "description": "Find the matching pairs of colors. Press each button to find out what color it is. Also called Concentration. Play by yourself or take turns with others.",
+      "icon": "memory.png",
       "name": "Memory",
+      "num_players_max": 2,
       "variant": [
         {
           "command": "memory",
@@ -86,6 +88,7 @@
     },
     {
       "description": "See who has the fastest reflexes. Everyone pick a button. When the lights turn green, the first person to press their button is the winner. Don't press your button too early or you lose.",
+      "icon": "fastest_press.png",
       "name": "Fastest Press",
       "num_players_max": 10,
       "num_players_min": 2,
@@ -108,6 +111,7 @@
     },
     {
       "description": "Guess the number I am thinking of between one and ten. See how many guesses it takes to get the right answer.",
+      "icon": "guess_the_number.png",
       "name": "Guess The Number",
       "variant": [
         {
