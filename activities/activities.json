@@ -100,6 +100,42 @@
       ]
     },
     {
+      "description": "Repeat back the pattern Simon gives you. Each time you repeat the pattern back correctly, the pattern gets one button longer. How long can you go?",
+      "name": "Simon Says",
+      "variant": [
+        {
+          "command": "simon_says 10",
+          "description": "10 Buttons",
+          "shortcut": 74
+        },
+        {
+          "command": "simon_says 8",
+          "description": "8 Buttons",
+          "shortcut": 73
+        },
+        {
+          "command": "simon_says 6",
+          "description": "6 Buttons",
+          "shortcut": 72
+        },
+        {
+          "command": "simon_says 4",
+          "description": "4 Buttons",
+          "shortcut": 71
+        },
+        {
+          "command": "simon_says 2",
+          "description": "2 Buttons",
+          "shortcut": 70
+        },
+        {
+          "command": "simon_says 1",
+          "description": "1 Buttons",
+          "shortcut": 70
+        }
+      ]
+    },
+    {
       "description": "Press each button as soon as it lights up. The faster you press the buttons the higher your score.\n\nCompare to Whac-A-Mole®",
       "name": "Press a Mole",
       "variant": [
