@@ -246,6 +246,16 @@
       ]
     },
     {
+      "description": "Play funny sounds. Each button is a different sound.",
+      "name": "Funny Sounds",
+      "variant": [
+        {
+          "command": "funny_sounds",
+          "shortcut": 36
+        }
+      ]
+    },
+    {
       "description": "Press the button(s) that are lit up to hear a fun sound.",
       "name": "Find Button",
       "variant": [
@@ -342,7 +352,19 @@
       "name": "Sound Debug",
       "variant": [
         {
-          "command": "sound_debug"
+          "command": "sound_debug",
+          "shortcut": 96
+        }
+      ]
+    },
+    {
+      "description": "",
+      "hidden": true,
+      "name": "Light Button Tester",
+      "variant": [
+        {
+          "command": "light_button_tester",
+          "shortcut": 97
         }
       ]
     },
@@ -353,6 +375,17 @@
       "variant": [
         {
           "command": "restart",
+          "shortcut": 98
+        }
+      ]
+    },
+    {
+      "description": "",
+      "hidden": true,
+      "name": "Sleep",
+      "variant": [
+        {
+          "command": "sleep",
           "shortcut": 99
         }
       ]
