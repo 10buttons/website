@@ -211,15 +211,15 @@
     },
     {
       "description": "Turn all the buttons green by clicking buttons to change their color. Pay attention as buttons may change their neighbors colors too.",
-      "name": "The All Green Puzzel",
+      "name": "The All Green Puzzle",
       "variant": [
         {
-          "command": "all_green_puzzel easy",
+          "command": "all_green_puzzle easy",
           "description": "Easy",
           "shortcut": 31
         },
         {
-          "command": "all_green_puzzel hard",
+          "command": "all_green_puzzle hard",
           "description": "Hard",
           "shortcut": 32
         }
@@ -308,10 +308,20 @@
     },
     {
       "description": "Hear the names of the planets in our solar system and also the Sun and Pluto.",
-      "name": "Solar System",
+      "name": "Solar System Names",
       "variant": [
         {
-          "command": "solar_system",
+          "command": "solar_system_names",
+          "shortcut": 50
+        }
+      ]
+    },
+    {
+      "description": "Hear the names of the planets in our solar system and also the Sun and Pluto.",
+      "name": "Solar System Names Quiz",
+      "variant": [
+        {
+          "command": "solar_system_names_quiz",
           "shortcut": 51
         }
       ]
@@ -328,10 +338,10 @@
     },
     {
       "description": "Test your knowledge about the planets in our solar system as well as the sun and pluto.",
-      "name": "Solar System Quiz",
+      "name": "Solar System Facts Quiz",
       "variant": [
         {
-          "command": "solar_system_quiz",
+          "command": "solar_system_facts_quiz",
           "shortcut": 53
         }
       ]
