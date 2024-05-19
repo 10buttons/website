@@ -378,6 +378,16 @@
     },
     {
       "description": "",
+      "name": "Colorful Shuffler",
+      "variant": [
+        {
+          "command": "colorful_shuffler",
+          "shortcut": 95
+        }
+      ]
+    },
+    {
+      "description": "",
       "hidden": true,
       "name": "Sound Debug",
       "variant": [
