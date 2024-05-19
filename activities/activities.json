@@ -214,14 +214,14 @@
       "name": "The All Green Puzzle",
       "variant": [
         {
-          "command": "all_green_puzzle easy",
-          "description": "Easy",
-          "shortcut": 31
-        },
-        {
           "command": "all_green_puzzle hard",
           "description": "Hard",
           "shortcut": 32
+        },
+        {
+          "command": "all_green_puzzle easy",
+          "description": "Easy",
+          "shortcut": 31
         }
       ]
     },
@@ -343,6 +343,16 @@
         {
           "command": "solar_system_facts_quiz",
           "shortcut": 53
+        }
+      ]
+    },
+    {
+      "description": "Fun song about the planets of the solar system",
+      "name": "We are the Planets of the Solar System",
+      "variant": [
+        {
+          "command": "solar_system_we_are_planets",
+          "shortcut": 54
         }
       ]
     },
