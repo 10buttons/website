@@ -357,6 +357,16 @@
       ]
     },
     {
+      "description": "How much do you weigh on each planet?",
+      "name": "Solar System Weights",
+      "variant": [
+        {
+          "command": "solar_system_weight",
+          "shortcut": 54
+        }
+      ]
+    },
+    {
       "description": "",
       "hidden": true,
       "name": "Press Timer",
