@@ -33,6 +33,27 @@
     </div>
     <!-- ========================= preloader end ========================= -->
 
+    <!-- Model redirect to boppo -->
+    <div id="boppoModal" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">We have a new brand!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>10 Buttons is now boppo! Visit our new site <a href="https://boppo.com">boppo.com</a>. This site is no longer updated.</p>
+            <img src="assets/img/boppo-logo-main.svg" style="width:100%; padding: 2em;">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stay on the old site</button>
+            <a href="https://boppo.com"><button type="button" class="btn btn-primary">Go to boppo.com</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- ========================= hero-section-wrapper-3 start ========================= -->
     <section id="home" class="hero-section-wrapper-3">
 
@@ -377,6 +398,8 @@
       if (subscribed == "true") {
         document.getElementById("EMAIL").value = "Thank you for subscribing!";
       }
+      var boppoModal = new bootstrap.Modal(document.getElementById('boppoModal'));
+      boppoModal.show();
     </script>
   </body>
 </html>
