@@ -1,70 +1,97 @@
 {
   "activity": [
     {
-      "description": "Two players compete to see who can press their button the most times in a short period of time. Push your color to the other player to win. Red vs Blue.",
+      "categories": [
+        "multiplayer"
+      ],
+      "description": "Two players compete to see who can press their button the most times in a short period of time. Push your color to the other player to win. Red team push the red button in the red corner. Blue team push the blue button in the blue corner.",
       "icon": "rapid_versus_icon.png",
       "name": "Rapid Versus",
       "num_players": 2,
       "variant": [
         {
           "command": "rapid_versus",
+          "in_random_activities": true,
           "shortcut": 12
         }
       ]
     },
     {
-      "description": "The light goes around in a circle. Press a button when its lit up and you move on to the next level. Press a button when its off and it is game over. No rush since there is no time limit to push a button.",
+      "categories": [
+        "arcade"
+      ],
+      "description": "The light goes around in a circle. Press a button when its lit up and you move on to the next level. Press a button when its off and it is game over. No rush, there is no time limit to push a button.",
       "icon": "catch_circle_runner_icon.png",
       "name": "Catch the Circle Runner",
       "variant": [
         {
           "command": "catch_circle_runner",
+          "in_random_activities": true,
           "shortcut": 13
         }
       ]
     },
     {
+      "categories": [
+        "discovery"
+      ],
       "description": "Create colors by mixing red, green, and blue. What colors can you make?",
       "icon": "color_mixer_icon.png",
       "name": "Color Mixer",
       "variant": [
         {
           "command": "color_mixer",
+          "in_random_activities": true,
           "shortcut": 14
         }
       ]
     },
     {
+      "categories": [
+        "discovery"
+      ],
       "description": "See ten colors, pick one to see it and hear its name.",
       "name": "Pick A Color (English)",
       "variant": [
         {
           "command": "pick_a_color 0 en-US",
+          "in_random_activities": true,
           "shortcut": 11
         }
       ]
     },
     {
+      "categories": [
+        "discovery"
+      ],
       "description": "See ten colors, pick one to see it and hear its name.",
       "name": "Pick A Color (Spanish)",
       "variant": [
         {
           "command": "pick_a_color 0 es-ES",
+          "in_random_activities": true,
           "shortcut": 61
         }
       ]
     },
     {
+      "categories": [
+        "discovery"
+      ],
       "description": "See ten colors, pick one to see it and hear its name.",
       "name": "Pick A Color (Chinese)",
       "variant": [
         {
           "command": "pick_a_color 0 zh-CN",
+          "in_random_activities": true,
           "shortcut": 62
         }
       ]
     },
     {
+      "categories": [
+        "TODO"
+      ],
       "description": "Find the matching pairs of colors. Press each button to find out what color it is. Also called Concentration. Play by yourself or take turns with others.",
       "icon": "memory.png",
       "name": "Memory",
@@ -72,21 +99,29 @@
       "variant": [
         {
           "command": "memory",
+          "in_random_activities": true,
           "shortcut": 15
         }
       ]
     },
     {
+      "categories": [
+        "audio"
+      ],
       "description": "Play the drums.",
       "name": "Drum Kit",
       "variant": [
         {
           "command": "drum_kit",
+          "in_random_activities": true,
           "shortcut": 16
         }
       ]
     },
     {
+      "categories": [
+        "multiplayer"
+      ],
       "description": "See who has the fastest reflexes. Everyone pick a button. When the lights turn green, the first person to press their button is the winner. Don't press your button too early or you lose.",
       "icon": "fastest_press.png",
       "name": "Fastest Press",
@@ -100,12 +135,16 @@
       ]
     },
     {
+      "categories": [
+        "TODO"
+      ],
       "description": "Repeat back the pattern Simon gives you. Each time you repeat the pattern back correctly, the pattern gets one button longer. How long can you go?",
       "name": "Simon Says",
       "variant": [
         {
           "command": "simon_says 10",
           "description": "10 Buttons",
+          "in_random_activities": true,
           "shortcut": 74
         },
         {
@@ -136,47 +175,66 @@
       ]
     },
     {
+      "categories": [
+        "arcade"
+      ],
       "description": "Press each button as soon as it lights up. The faster you press the buttons the higher your score.\n\nCompare to Whac-A-Mole®",
       "name": "Press a Mole",
       "variant": [
         {
           "command": "press_a_mole",
+          "in_random_activities": true,
           "shortcut": 19
         }
       ]
     },
     {
+      "categories": [
+        "TODO"
+      ],
       "description": "Guess the number I am thinking of between one and ten. See how many guesses it takes to get the right answer.",
       "icon": "guess_the_number.png",
       "name": "Guess The Number",
       "variant": [
         {
           "command": "guess_a_number",
+          "in_random_activities": true,
           "shortcut": 21
         }
       ]
     },
     {
+      "categories": [
+        "numbers"
+      ],
       "description": "Press a button and hear the count of how many buttons you have pressed. How high can you go?",
       "name": "Button Press Counter",
       "variant": [
         {
           "command": "button_press_counter 10",
+          "in_random_activities": true,
           "shortcut": 22
         }
       ]
     },
     {
+      "categories": [
+        "numbers"
+      ],
       "description": "Press a button and hear the count of how many buttons you have pressed. How high can you go? The lights show your number in binary.",
       "name": "Button Press Counter - Binary",
       "variant": [
         {
           "command": "button_press_counter 2",
+          "in_random_activities": true,
           "shortcut": 23
         }
       ]
     },
     {
+      "categories": [
+        "numbers"
+      ],
       "description": "Press a button to turn it off and on. Hear the count of on buttons.",
       "name": "Count On",
       "suggested_age_max": 4,
@@ -184,6 +242,7 @@
       "variant": [
         {
           "command": "count_on",
+          "in_random_activities": true,
           "shortcut": 24
         }
       ]
@@ -191,6 +250,7 @@
     {
       "description": "See how AND, OR, NOT, XOR logic gates work by turning inputs on and off on the bottom row and seeing the output on the top row.",
       "face": "logic_gates",
+      "hidden": true,
       "name": "Logic Gates",
       "variant": [
         {
@@ -200,22 +260,30 @@
       ]
     },
     {
+      "categories": [
+        "audio"
+      ],
       "description": "A noise machine that can provide relaxing sounds. Choose from the following sounds: \n\nFireplace\nMachine Hum\nWaves\nCrickets\nRain\nBirds\nCrowd of People\nBrook\nTrain\nWashing Machine",
       "name": "Sound Machine",
       "variant": [
         {
           "command": "sound_machine",
+          "in_random_activities": true,
           "shortcut": 28
         }
       ]
     },
     {
+      "categories": [
+        "TODO"
+      ],
       "description": "Turn all the buttons green by clicking buttons to change their color. Pay attention as buttons may change their neighbors colors too.",
       "name": "The All Green Puzzle",
       "variant": [
         {
           "command": "all_green_puzzle hard",
           "description": "Hard",
+          "in_random_activities": true,
           "shortcut": 32
         },
         {
@@ -231,6 +299,7 @@
       "variant": [
         {
           "command": "pixel_art",
+          "in_random_activities": true,
           "shortcut": 34
         }
       ]
@@ -241,6 +310,7 @@
       "variant": [
         {
           "command": "nursery_ryhmes",
+          "in_random_activities": true,
           "shortcut": 35
         }
       ]
@@ -251,6 +321,7 @@
       "variant": [
         {
           "command": "funny_sounds",
+          "in_random_activities": true,
           "shortcut": 36
         }
       ]
@@ -258,10 +329,13 @@
     {
       "description": "Press the button(s) that are lit up to hear a fun sound.",
       "name": "Find Button",
+      "suggested_age_max": 4,
+      "suggested_age_min": 1,
       "variant": [
         {
           "command": "find_button 1",
           "description": "1 button",
+          "in_random_activities": true,
           "shortcut": 41
         },
         {
@@ -287,6 +361,7 @@
         {
           "command": "find_button 6",
           "description": "6 button",
+          "in_random_activities": true,
           "shortcut": 46
         },
         {
@@ -303,6 +378,20 @@
           "command": "find_button 9",
           "description": "9 button",
           "shortcut": 49
+        }
+      ]
+    },
+    {
+      "categories": [
+        "TODO"
+      ],
+      "description": "Press a button to say a word. The words you can say are: yes, no, hello, more, all done, hungry, thirsty, good, bad, help.",
+      "name": "Speak Simple Words",
+      "variant": [
+        {
+          "command": "speak_simple_words",
+          "in_random_activities": true,
+          "shortcut": 18
         }
       ]
     },
@@ -378,6 +467,7 @@
     },
     {
       "description": "",
+      "hidden": true,
       "name": "Colorful Shuffler",
       "variant": [
         {
@@ -435,10 +525,12 @@
       "icon": "https://megaphone.imgix.net/podcasts/e99fad86-c3ef-11e7-a558-0f40e9230d80/image/StoryPirates_ShowArt_3000x3000.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "name": "Story Pirates",
       "type": "podcast",
+      "num_players": 0,
       "website": "http://www.storypirates.com/podcast",
       "variant": [
         {
-          "command": "play_podcast https://feeds.megaphone.fm/storypirates"
+          "command": "play_podcast https://feeds.megaphone.fm/storypirates",
+          "shortcut": 81
         }
       ]
     },
@@ -447,10 +539,12 @@
       "icon": "https://static.feedpress.com/logo/vpr-but-why-62b4d4edadb66.png",
       "name": "But Why: A Podcast for Curious Kids",
       "type": "podcast",
+      "num_players": 0,
       "website": "http://butwhykids.org/",
       "variant": [
         {
-          "command": "play_podcast https://podcasts.vpr.net/but-why"
+          "command": "play_podcast https://podcasts.vpr.net/but-why",
+          "shortcut": 82
         }
       ]
     },
@@ -459,10 +553,12 @@
       "icon": "https://wordpress.wbur.org/wp-content/uploads/2017/06/WBUR_Album_Art_3000px_CircleRound.jpg",
       "name": "Circle Round",
       "type": "podcast",
+      "num_players": 0,
       "website": "https://www.wbur.org/podcasts/circleround",
       "variant": [
         {
-          "command": "play_podcast https://rss.wbur.org/circleround/podcast"
+          "command": "play_podcast https://rss.wbur.org/circleround/podcast",
+          "shortcut": 83
         }
       ]
     },
@@ -471,10 +567,12 @@
       "icon": "https://megaphone.imgix.net/podcasts/d24d44da-0684-11ee-b249-13e17f60109e/image/avatars-000270934730-efgg91-original.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "name": "The Past and The Curious: A History Podcast for Kids and Families",
       "type": "podcast",
+      "num_players": 0,
       "website": "http://thepastandthecurious.com/",
       "variant": [
         {
-          "command": "play_podcast https://feeds.megaphone.fm/ARML5717012507"
+          "command": "play_podcast https://feeds.megaphone.fm/ARML5717012507",
+          "shortcut": 84
         }
       ]
     },
@@ -483,10 +581,12 @@
       "icon": "https://megaphone.imgix.net/podcasts/ebbf41d4-0684-11ee-a3f0-23cde64557da/image/1539699612artwork.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "name": "Unspookable",
       "type": "podcast",
+      "num_players": 0,
       "website": "https://cms.megaphone.fm/channel/ARML9653488668",
       "variant": [
         {
-          "command": "play_podcast https://feeds.megaphone.fm/ARML9653488668"
+          "command": "play_podcast https://feeds.megaphone.fm/ARML9653488668",
+          "shortcut": 85
         }
       ]
     }
